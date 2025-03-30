@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" type="image/x-icon" href={"/favicon.svg"} />
-      <body className={` antialiased bg-black`}>
+      <body className={` antialiased`}>
         {children}
       </body>
     </html>
